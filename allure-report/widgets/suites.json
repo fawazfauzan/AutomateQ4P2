@@ -1,28 +1,6 @@
 {
-  "total" : 3,
+  "total" : 1,
   "items" : [ {
-    "uid" : "326637a62e3adc9d0e6fc8d1c9c0bc4e",
-    "name" : "Register Cermati: Register Cermati",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "ff9b43c34a817b44fa9b6edf61b00141",
-    "name" : "My Login application",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "cd3a8a52419b6656a90e2ecd0a29269a",
     "name" : "Register Cermati",
     "statistic" : {

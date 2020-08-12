@@ -1,0 +1,58 @@
+{
+  "uid" : "1e3f8a7638bc4873",
+  "name" : "Succesfully register on cermati",
+  "fullName" : "Register Cermati.Succesfully register on cermati",
+  "historyId" : "22463c558af267e9791ed187d065aac5",
+  "time" : {
+    "start" : 1597234521457,
+    "stop" : 1597234529101,
+    "duration" : 7644
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Register Cermati"
+  }, {
+    "name" : "testClass",
+    "value" : "Register Cermati"
+  }, {
+    "name" : "testMethod",
+    "value" : "Succesfully register on cermati"
+  }, {
+    "name" : "package",
+    "value" : "Register Cermati"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-10.0.18362"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e3f8a7638bc4873.json",
+  "parameterValues" : [ "Chrome-10.0.18362" ]
+}

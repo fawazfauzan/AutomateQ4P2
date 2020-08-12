@@ -2,54 +2,20 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Register Cermati: Register Cermati",
-    "children" : [ {
-      "name" : "Succesfully register on cermati",
-      "uid" : "d41594bdf1b81469",
-      "parentUid" : "8d92a9638c2f099856cc554cc04bffac",
-      "status" : "broken",
-      "time" : {
-        "start" : 1597226580252,
-        "stop" : 1597226587719,
-        "duration" : 7467
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "8d92a9638c2f099856cc554cc04bffac"
-  }, {
-    "name" : "My Login application",
-    "children" : [ {
-      "name" : "should login with valid credentials",
-      "uid" : "944593754c5dd082",
-      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597229411042,
-        "stop" : 1597229421217,
-        "duration" : 10175
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "f43874cc36d1c5833cbb332fc53460ce"
-  }, {
     "name" : "Register Cermati",
     "children" : [ {
       "name" : "Succesfully register on cermati",
-      "uid" : "b39eecd65efc8dd4",
+      "uid" : "1e3f8a7638bc4873",
       "parentUid" : "ad0a6231cfd7b1a5f39e5fe68a7f2964",
       "status" : "passed",
       "time" : {
-        "start" : 1597229411379,
-        "stop" : 1597229451535,
-        "duration" : 40156
+        "start" : 1597234521457,
+        "stop" : 1597234529101,
+        "duration" : 7644
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "Chrome-10.0.18362" ]
     } ],
     "uid" : "ad0a6231cfd7b1a5f39e5fe68a7f2964"
   } ]

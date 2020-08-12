@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": ".//*[contains(@class, \"autocomplete-list-item\") and normalize-space() = \"KOTA JAKARTA SELATAN\"]"
-}

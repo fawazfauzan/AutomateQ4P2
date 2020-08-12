@@ -8,17 +8,16 @@ class RegisterPage {
     get inputLastName() {return $('#last-name')}
     get inputPhone() {return $('#mobile-phone')}
     get inputCity() {return $('#residence-city')};
-    get buttonRegister() {return $('.btn btn-full btn-submit btn-track')}
+    get buttonRegister() {return $('.btn')}
 
     async open(baseURL, Path){
         await browser.url(baseURL+Path);
-        await browser.maximizeWindow();
+        //await browser.maximizeWindow();
         await expect(await this.textHeader).toHaveTextContaining('Daftar ke Cermati.com');
     }
 
     async fillEmail(email){
         await (await this.inputEmail).setValue(email);          
-        //this.buttonRegister.click();
     }
 
     async fillPassword(password, confirmPassword)

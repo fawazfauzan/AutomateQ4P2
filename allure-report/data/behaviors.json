@@ -3,42 +3,16 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Succesfully register on cermati",
-    "uid" : "d41594bdf1b81469",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1597226580252,
-      "stop" : 1597226587719,
-      "duration" : 7467
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "should login with valid credentials",
-    "uid" : "944593754c5dd082",
+    "uid" : "1e3f8a7638bc4873",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1597229411042,
-      "stop" : 1597229421217,
-      "duration" : 10175
+      "start" : 1597234521457,
+      "stop" : 1597234529101,
+      "duration" : 7644
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "Succesfully register on cermati",
-    "uid" : "b39eecd65efc8dd4",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1597229411379,
-      "stop" : 1597229451535,
-      "duration" : 40156
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
+    "parameters" : [ "Chrome-10.0.18362" ]
   } ]
 }
