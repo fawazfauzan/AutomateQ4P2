@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#join-container > div > div > div.panel.panel-card > div > div:nth-child(7) > div > div.autocomplete-list-container > div > div:nth-child(3)"
+}

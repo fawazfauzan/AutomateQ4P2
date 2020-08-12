@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 12 17:50:11 ICT 2020","Wed Aug 12 17:50:51 ICT 2020","40156","","Register Cermati","","Register Cermati","Succesfully register on cermati","Succesfully register on cermati",""
+"passed","Wed Aug 12 17:50:11 ICT 2020","Wed Aug 12 17:50:21 ICT 2020","10175","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"broken","Wed Aug 12 17:03:00 ICT 2020","Wed Aug 12 17:03:07 ICT 2020","7467","","Register Cermati: Register Cermati","","Register Cermati: Register Cermati","Succesfully register on cermati","Succesfully register on cermati",""

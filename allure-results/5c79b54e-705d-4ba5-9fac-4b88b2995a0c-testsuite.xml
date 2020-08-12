@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597225534757' stop='1597225538764'>
+    <name>Register Cermati: Register Cermati</name>
+    <title>Register Cermati: Register Cermati</title>
+    <test-cases>
+        <test-case start='1597225534758' status='broken' stop='1597225538761'>
+            <name>Succesfully register on cermati</name>
+            <title>Succesfully register on cermati</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1597225534764' status='passed' stop='1597225534787'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2f9ff8d2-9488-47da-ad10-6d8a720d156d-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='9f7b302a-c6be-4c13-9fe6-ab0dccb13134-attachment.json' type='application/json' size='1046'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1597225538139' status='passed' stop='1597225538568'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='dd208b07-1813-48d2-b35a-ad6dd1d7ff85-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1597225538575' status='passed' stop='1597225538617'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b5a6da23-a743-4b34-b520-29e782957114-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='ee6f2123-6cb6-4025-802e-beb6c7e84f5c-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1597225538624' status='passed' stop='1597225538702'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2f9d09c4-f178-4821-9c36-3e821aae43f4-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='1025d1ec-d247-4cd6-bfc0-06c2eabcac1e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1597225538708' status='passed' stop='1597225538744'>
+                    <name>GET /session/:sessionId/element/5f97efb1-cb7e-4209-9a16-b5cfcf1f2d2a/text</name>
+                    <title>GET /session/:sessionId/element/5f97efb1-cb7e-4209-9a16-b5cfcf1f2d2a/text</title>
+                    <attachments>
+                        <attachment title='Response' source='95a25951-1965-4010-bd98-80e05709a763-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1597225538752' status='broken' stop='1597225538760'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1597225538755' status='broken' stop='1597225538760'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='f35b67c8-c34f-4541-b0be-0172e1a7ef54-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='6adf2fba-8bee-4f0a-a798-771d52d36356-attachment.json' type='application/json' size='1054'/>
+            </attachments>
+            <failure>
+                <message>this.inputEmail.setValue is not a function</message>
+                <stack-trace>TypeError: this.inputEmail.setValue is not a function
+                    at RegisterPage.register (C:\Users\fawaz.nahdi\Documents\AutomateQ4P2\test\pageobjects\register.page.js:14:31)
+                    at Context.&lt;anonymous> (C:\Users\fawaz.nahdi\Documents\AutomateQ4P2\test\specs\register.test.js:14:28)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Context.executeAsync (C:\Users\fawaz.nahdi\Documents\AutomateQ4P2\node_modules\@wdio\utils\build\shim.js:123:12)
+                    at async Context.testFrameworkFnWrapper (C:\Users\fawaz.nahdi\Documents\AutomateQ4P2\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:57:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

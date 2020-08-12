@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[contains(@class, \"autocomplete-list-item\") and normalize-space() = \"KOTA JAKARTA SELATAN\"]\"}\n  (Session info: chrome=84.0.4147.105)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00B09563+2725219]\n\tOrdinal0 [0x00A08551+1672529]\n\tOrdinal0 [0x008F0359+525145]\n\tOrdinal0 [0x00889755+104277]\n\tOrdinal0 [0x008A53C0+218048]\n\tOrdinal0 [0x0089AAD0+174800]\n\tOrdinal0 [0x008A3D7C+212348]\n\tOrdinal0 [0x0089A94B+174411]\n\tOrdinal0 [0x00882528+75048]\n\tOrdinal0 [0x008835A0+79264]\n\tOrdinal0 [0x00883539+79161]\n\tOrdinal0 [0x00A1D607+1758727]\n\tGetHandleVerifier [0x00C26546+1050150]\n\tGetHandleVerifier [0x00C26291+1049457]\n\tGetHandleVerifier [0x00C310D7+1094071]\n\tGetHandleVerifier [0x00C26B46+1051686]\n\tOrdinal0 [0x00A15B06+1727238]\n\tOrdinal0 [0x00A1EB7B+1764219]\n\tOrdinal0 [0x00A1ECE3+1764579]\n\tOrdinal0 [0x00A34C05+1854469]\n\tBaseThreadInitThunk [0x75EE6359+25]\n\tRtlGetAppContainerNamedObjectPath [0x77227C24+228]\n\tRtlGetAppContainerNamedObjectPath [0x77227BF4+180]\n"
+}

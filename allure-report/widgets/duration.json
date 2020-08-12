@@ -1,0 +1,31 @@
+[ {
+  "uid" : "b39eecd65efc8dd4",
+  "name" : "Succesfully register on cermati",
+  "time" : {
+    "start" : 1597229411379,
+    "stop" : 1597229451535,
+    "duration" : 40156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "944593754c5dd082",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1597229411042,
+    "stop" : 1597229421217,
+    "duration" : 10175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d41594bdf1b81469",
+  "name" : "Succesfully register on cermati",
+  "time" : {
+    "start" : 1597226580252,
+    "stop" : 1597226587719,
+    "duration" : 7467
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

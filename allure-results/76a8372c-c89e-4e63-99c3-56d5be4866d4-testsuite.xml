@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597226433660' stop='1597226433753'>
+    <name>Register Cermati: Register Cermati</name>
+    <title>Register Cermati: Register Cermati</title>
+    <test-cases>
+        <test-case start='1597226433672' status='broken' stop='1597226433690'>
+            <name>Succesfully register on cermati</name>
+            <title>Succesfully register on cermati</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1597226433680' status='broken' stop='1597226433690'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='bcad8252-627b-45f9-b0f8-a43587f275ea-attachment.json' type='application/json' size='1046'/>
+                <attachment title='Response' source='2684965b-d573-4a3e-a498-bec724521350-attachment.json' type='application/json' size='1054'/>
+            </attachments>
+            <failure>
+                <message>baseUrl is not defined</message>
+                <stack-trace>ReferenceError: baseUrl is not defined
+                    at RegisterPage.Open (C:\Users\fawaz.nahdi\Documents\AutomateQ4P2\test\pageobjects\register.page.js:28:27)
+                    at Context.&lt;anonymous> (C:\Users\fawaz.nahdi\Documents\AutomateQ4P2\test\specs\register.test.js:11:28)
+                    at Context.executeAsync (C:\Users\fawaz.nahdi\Documents\AutomateQ4P2\node_modules\@wdio\utils\build\shim.js:123:21)
+                    at Context.testFrameworkFnWrapper (C:\Users\fawaz.nahdi\Documents\AutomateQ4P2\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:49:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

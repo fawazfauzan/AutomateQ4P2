@@ -1,0 +1,98 @@
+{
+  "uid" : "5e79727334d1715a",
+  "name" : "Succesfully register on cermati",
+  "fullName" : "Register Cermati: Register Cermati.Succesfully register on cermati",
+  "historyId" : "3fdbb86bc768a4f677a19d832b2aa482",
+  "time" : {
+    "start" : 1597226433672,
+    "stop" : 1597226433690,
+    "duration" : 18
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "baseUrl is not defined",
+  "statusTrace" : "ReferenceError: baseUrl is not defined\n                    at RegisterPage.Open (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\pageobjects\\register.page.js:28:27)\n                    at Context.<anonymous> (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\specs\\register.test.js:11:28)\n                    at Context.executeAsync (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\shim.js:123:21)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:49:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "baseUrl is not defined",
+    "statusTrace" : "ReferenceError: baseUrl is not defined\n                    at RegisterPage.Open (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\pageobjects\\register.page.js:28:27)\n                    at Context.<anonymous> (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\specs\\register.test.js:11:28)\n                    at Context.executeAsync (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\shim.js:123:21)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:49:28)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1597226433680,
+        "stop" : 1597226433690,
+        "duration" : 10
+      },
+      "status" : "broken",
+      "statusMessage" : "ReferenceError: baseUrl is not defined\n                    at RegisterPage.Open (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\pageobjects\\register.page.js:28:27)\n                    at Context.<anonymous> (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\specs\\register.test.js:11:28)\n                    at Context.executeAsync (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\shim.js:123:21)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:49:28)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d1e3dad5d17ca2e9",
+      "name" : "Response",
+      "source" : "d1e3dad5d17ca2e9.json",
+      "type" : "application/json",
+      "size" : 1046
+    }, {
+      "uid" : "5783e23a82033646",
+      "name" : "Response",
+      "source" : "5783e23a82033646.json",
+      "type" : "application/json",
+      "size" : 1054
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Register Cermati: Register Cermati"
+  }, {
+    "name" : "testClass",
+    "value" : "Register Cermati: Register Cermati"
+  }, {
+    "name" : "testMethod",
+    "value" : "Succesfully register on cermati"
+  }, {
+    "name" : "package",
+    "value" : "Register Cermati: Register Cermati"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e79727334d1715a.json",
+  "parameterValues" : [ "chrome" ]
+}

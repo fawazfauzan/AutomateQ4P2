@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "(intermediate value).withText is not a function",
+      "children" : [ {
+        "name" : "Succesfully register on cermati",
+        "uid" : "d41594bdf1b81469",
+        "parentUid" : "cf64add29aecd226ed9266064cc831b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1597226580252,
+          "stop" : 1597226587719,
+          "duration" : 7467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "cf64add29aecd226ed9266064cc831b6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

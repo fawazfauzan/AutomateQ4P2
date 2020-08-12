@@ -1,0 +1,237 @@
+{
+  "uid" : "bd449ceaa86607b1",
+  "name" : "Succesfully register on cermati",
+  "fullName" : "Register Cermati: Register Cermati.Succesfully register on cermati",
+  "historyId" : "3fdbb86bc768a4f677a19d832b2aa482",
+  "time" : {
+    "start" : 1597225534758,
+    "stop" : 1597225538761,
+    "duration" : 4003
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.inputEmail.setValue is not a function",
+  "statusTrace" : "TypeError: this.inputEmail.setValue is not a function\n                    at RegisterPage.register (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\pageobjects\\register.page.js:14:31)\n                    at Context.<anonymous> (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\specs\\register.test.js:14:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Context.executeAsync (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\shim.js:123:12)\n                    at async Context.testFrameworkFnWrapper (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:57:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.inputEmail.setValue is not a function",
+    "statusTrace" : "TypeError: this.inputEmail.setValue is not a function\n                    at RegisterPage.register (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\pageobjects\\register.page.js:14:31)\n                    at Context.<anonymous> (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\specs\\register.test.js:14:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Context.executeAsync (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\shim.js:123:12)\n                    at async Context.testFrameworkFnWrapper (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:57:14)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1597225534764,
+        "stop" : 1597225534787,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2407eef7e45be5e3",
+        "name" : "Request",
+        "source" : "2407eef7e45be5e3.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "367501b106cef88a",
+        "name" : "Response",
+        "source" : "367501b106cef88a.json",
+        "type" : "application/json",
+        "size" : 1046
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1597225538139,
+        "stop" : 1597225538568,
+        "duration" : 429
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b68faa21f978c14f",
+        "name" : "Response",
+        "source" : "b68faa21f978c14f.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1597225538575,
+        "stop" : 1597225538617,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1aa2b8aaed25ff4",
+        "name" : "Request",
+        "source" : "c1aa2b8aaed25ff4.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "9668c5dcd39b875f",
+        "name" : "Response",
+        "source" : "9668c5dcd39b875f.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1597225538624,
+        "stop" : 1597225538702,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28d54ba3d11a4f81",
+        "name" : "Request",
+        "source" : "28d54ba3d11a4f81.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "f947133624a218c",
+        "name" : "Response",
+        "source" : "f947133624a218c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/5f97efb1-cb7e-4209-9a16-b5cfcf1f2d2a/text",
+      "time" : {
+        "start" : 1597225538708,
+        "stop" : 1597225538744,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee5ba48abff5ec0d",
+        "name" : "Response",
+        "source" : "ee5ba48abff5ec0d.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1597225538752,
+        "stop" : 1597225538760,
+        "duration" : 8
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: this.inputEmail.setValue is not a function\n                    at RegisterPage.register (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\pageobjects\\register.page.js:14:31)\n                    at Context.<anonymous> (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\specs\\register.test.js:14:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Context.executeAsync (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\shim.js:123:12)\n                    at async Context.testFrameworkFnWrapper (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:57:14)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1597225538755,
+          "stop" : 1597225538760,
+          "duration" : 5
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: this.inputEmail.setValue is not a function\n                    at RegisterPage.register (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\pageobjects\\register.page.js:14:31)\n                    at Context.<anonymous> (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\test\\specs\\register.test.js:14:28)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Context.executeAsync (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\shim.js:123:12)\n                    at async Context.testFrameworkFnWrapper (C:\\Users\\fawaz.nahdi\\Documents\\AutomateQ4P2\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:57:14)",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "34312e8337b501c6",
+          "name" : "Request",
+          "source" : "34312e8337b501c6.json",
+          "type" : "application/json",
+          "size" : 50
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d8a13673a0a65895",
+      "name" : "Response",
+      "source" : "d8a13673a0a65895.json",
+      "type" : "application/json",
+      "size" : 1054
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 10,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Register Cermati: Register Cermati"
+  }, {
+    "name" : "testClass",
+    "value" : "Register Cermati: Register Cermati"
+  }, {
+    "name" : "testMethod",
+    "value" : "Succesfully register on cermati"
+  }, {
+    "name" : "package",
+    "value" : "Register Cermati: Register Cermati"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd449ceaa86607b1.json",
+  "parameterValues" : [ "chrome" ]
+}
