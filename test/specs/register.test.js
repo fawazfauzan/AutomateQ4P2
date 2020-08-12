@@ -11,7 +11,5 @@ describe('Register Cermati', () => {
         await registerPage.fillName('TestNamaPertama','TestNamaKedua');
         await registerPage.fillNoPhone('081200000812')
         await registerPage.chooseCity('jakarta','KOTA JAKARTA SELATAN');
-        await browser.pause(30000)
-
     });
 });
